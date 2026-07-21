@@ -1,0 +1,56 @@
+*{
+    overflow-x: hidden;
+
+}
+.c1{
+    width: auto;
+    border: 2px solid black;
+}
+.i{
+    width: 375px;
+    height: 200px;
+}
+.c2{
+    width: auto;
+    border: 2px solid black;
+}
+.c3{
+    width: auto;
+    border: 2px solid black;
+}
+.c4{
+    width: auto;
+    border: 2px solid black;
+}
+.c5{
+    width: 350px;
+    border: 2px solid black;
+}
+.c6{
+    width: 350px;
+    border: 2px solid black;
+}
+.c7{
+    width: 350px;
+    border: 2px solid black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont1{
+    display: flex;
+    margin: auto;
+    gap: 1px;
+}
+.cont2{
+    display: flex;
+    margin: auto;
+    gap: 1px;
+}
+
+.head{
+    color: red;
+    margin-left: 45%;
+}

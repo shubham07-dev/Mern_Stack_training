@@ -1,0 +1,72 @@
+body{
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+    margin-left: 5%;
+}
+
+.card1{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px 0px 10px 0px;
+    width: auto;   
+    margin: 1rem;
+}
+
+.p1{
+    transform: rotate(89deg);
+    position: relative;
+    right: 80px;
+    color: red;
+    font-size: large;
+}
+.p2{
+    transform: rotate(89deg);
+    position: relative;
+    right: 70px;
+    padding: 0px;
+    font-size: large;
+    color: red;
+}
+
+.in2{
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding: 10px;
+border-radius: 0px 0px 9px 0px;
+}
+.in1{
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+.i1{
+    margin-left: 2rem;
+    height: 200px;
+    width: 140px;
+}
+
+
+.btn1{
+    background: #8BDEDA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EF9393, #E17DC2, #998EE0, #43ADD0, #8BDEDA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EF9393, #E17DC2, #998EE0, #43ADD0, #8BDEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: red;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+.btn2{
+    background: #8BDEDA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EF9393, #E17DC2, #998EE0, #43ADD0, #8BDEDA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EF9393, #E17DC2, #998EE0, #43ADD0, #8BDEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: red;
+border-radius: 10px;
+margin-bottom: 15px;
+margin-left: 250px;
+}

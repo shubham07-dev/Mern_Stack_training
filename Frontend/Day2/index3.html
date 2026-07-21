@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .error{
+            color: red;
+        }
+
+        section {
+            position: absolute;
+            width: 100%;
+            transition: 0.5s;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #sec1 {
+            top: 20px;
+            left: 20px;
+        }
+
+
+        #sec2 {
+            top: 20px;
+            left: 40%;
+
+        }
+
+        #sec3 {
+            top: 20px;
+            left: 80%;
+
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        select{
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="sec1">
+
+        <form id="form1">
+
+            <h2>Personal Details</h2>
+
+            <input type="text" id="name" placeholder="Full Name">
+            <div class="error" id="nameError"></div>
+
+            <input type="email" id="email" placeholder="Email">
+            <div class="error" id="emailError"></div>
+
+            <input type="number" id="phone" placeholder="Phone Number">
+            <div class="error" id="phoneError"></div>
+
+            <input type="date" id="dob">
+            <div class="error" id="dobError"></div>
+
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <div class="error" id="genderError"></div>
+
+            <textarea id="address" placeholder="Address"></textarea>
+            <div class="error" id="addressError"></div>
+
+            <button type="submit">Next</button>
+
+        </form>
+
+    </section>
+
+
+    <section id="sec2" class="hidden">
+
+        <form id="form2">
+
+            <h2>Education Details</h2>
+
+            <input type="text" id="college" placeholder="College Name">
+            <div class="error" id="collegeError"></div>
+
+            <input type="text" id="course" placeholder="Course">
+            <div class="error" id="courseError"></div>
+
+            <input type="number" id="year" placeholder="Passing Year">
+            <div class="error" id="yearError"></div>
+
+            <button type="submit">Next</button>
+
+        </form>
+
+    </section>
+
+    <section id="sec3" class="hidden">
+
+        <form id="form3">
+
+            <h2>Account Details</h2>
+
+            <input type="text" id="username" placeholder="Username">
+            <div class="error" id="usernameError"></div>
+
+            <input type="password" id="password" placeholder="Password">
+            <div class="error" id="passwordError"></div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<style>
+    td{
+        padding: 10px;
+    }
+    th{
+        padding:10px;
+    }
+    .break:hover{
+        background-color: red;
+        color: white;
+    }
+    .th:hover{
+        background-color: yellow;
+    }
+    .sat:hover{
+        background-color: cyan;
+    }
+
+    .mon:hover{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+
+<table border="1" width="100%" style="border-collapse: collapse; text-align:center;padding: 5px; border: 1px solid black;">
+    <thead>
+        <tr>
+            <th>Days</th>
+            <th>I<br>(9:00-10:00 AM)</th>
+            <th>II<br>(10:00-11:00 AM)</th>
+            <th>III<br>(11:00-12:00 PM)</th>
+            <th>IV<br>(12:00-1:00 PM)</th>
+            <th>Break<br>(1:00-1:30 PM)</th>
+            <th>V<br>(1:30-2:30 PM)</th>
+            <th>VI<br>(2:30-3:30 PM)</th>
+            <th>VII<br>(3:30-4:30 PM)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td class="mon">Monday</td>
+            <td class="mon">Maths</td>
+            <td class="mon">Physics</td>
+            <td class="mon">Java</td>
+            <td class="mon">English</td>
+            <td rowspan="6" class="break">Short Break</td>
+            <td class="mon">DBMS</td>
+            <td class="mon">OS</td>
+            <td class="mon">Lab</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+            <td>Maths</td>
+            <td colspan="2">DBMS</td>
+            <td>Physics</td>
+            <td>Lab</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>English</td>
+            <td>Java</td>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>Python</td>
+            <td>Maths</td>
+            <td>Library</td>
+        </tr>
+
+        <tr class="th">
+            <td>Thursday</td>
+            <td colspan="2">Physics</td>
+            <td>Java</td>
+            <td>Maths</td>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>Lab</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Maths</td>
+            <td>Python</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Java</td>
+            <td>Sports</td>
+            <td>DBMS</td>
+        </tr>
+
+        <tr class="sat">
+            <td>Saturday</td>
+            <td>Seminar</td>
+            <td>Java</td>
+            <td>DBMS</td>
+            <td>Maths</td>
+            <td colspan="3">Games</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
