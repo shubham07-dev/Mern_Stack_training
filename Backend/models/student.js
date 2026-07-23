@@ -23,6 +23,10 @@ const studentSchema=new mongoose.Schema(
         skills:{
             type:String,
             required:true
+        },
+        role:{
+            type:String,
+            default:"student"
         }
     },{timestamps:true}
 )
